@@ -1,14 +1,14 @@
 body{
 	padding:100px;
-	background-color:#3366CC;
+	background-color:#252525;
 }
 
 h1 {
     background-color: RGB(249, 201, 16); 
    }
    p {
-    background-color: rgb(250, 250, 250); 
-    color: rgb(24, 24, 24); 
+    background-color: rgb(17, 71, 209); 
+    color: rgb(240, 240, 240); 
    }
 #main-image{
 width: 500px;
