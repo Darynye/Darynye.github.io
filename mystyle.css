@@ -16,3 +16,6 @@ height: auto;
 border:solid;
 border-radius:30px;
 }
+a:hover {
+    color: #ffe;
+    background-color: #5488af;}
