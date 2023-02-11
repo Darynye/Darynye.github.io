@@ -7,11 +7,12 @@ h1 {
     background-color: RGB(249, 201, 16); 
    }
    p {
-    background-color: rgb(21, 76, 131); 
-    color: white; 
+    background-color: rgb(250, 250, 250); 
+    color: rgb(24, 24, 24); 
    }
 #main-image{
-width:400px;
+width: 500px;
+height: auto;
 border:solid;
-border-radius:20px;
+border-radius:30px;
 }
