@@ -15,6 +15,14 @@ width:400px;
 border:solid;
 border-radius:20px;
 }
-a:hover {
-    color: #ffe;
-    background-color: #5488af;}
+@media screen and (max-width: 1024px) {
+    .container {
+        max-width: 600px;}
+}
+@media screen and (max-width: 768px) {
+    .container {
+        max-width: 100%;
+        padding: 20px;
+    }
+}
+img{max-width: 100%;height: auto}
