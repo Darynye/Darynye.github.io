@@ -10,6 +10,9 @@ h1 {
     background-color: maroon; 
     color: white; 
    }
+a {
+    height:32px;
+}
 #main-image{
 width:400px;
 border:solid;
