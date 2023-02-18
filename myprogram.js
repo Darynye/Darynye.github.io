@@ -29,21 +29,25 @@ let iron_man = {
     "Grade": 8.3 
 } 
  
-movies.push(iron_man) 
- 
- 
-function write(i, movies){ 
-    return movies[i]; 
-} 
- 
-for (let i = 0; i < movies.length; i++) { 
-    let obj = write(i, movies); 
-    document.write("<h5>Movie: " + obj["name"] + "</h5>"); 
-    document.write("<h5>Genre: " + obj["genre"] + "</h5>"); 
-    document.write("<h5>Grade: " + obj["Grade"] + ""); 
-    document.writeln("") 
-} 
- 
- 
-document.write("<h5>Average Grade: " + avg(movies) + "</h5>")
+function averageGrade(movies) {
+    let sum = 0;
+    for (let i = 0; i < movies.length; i++) {
+      sum += movies[i].Grade;
+    }
+    return sum / movies.length;
+  }
+  
+  function writeMovieDetails(movie) {
+    document.write("<h5>Movie: " + movie.name + "</h5>");
+    document.write("<h5>Genre: " + movie.genre + "</h5>");
+    document.write("<h5>Grade: " + movie.Grade + "</h5>");
+    document.writeln("");
+  }
+  
+  for (let i = 0; i < movies.length; i++) {
+    let movie = movies[i];
+    writeMovieDetails(movie);
+  }
+  
+  document.write("<h5>Average Grade: " + averageGrade(movies) + "</h5>");
 

@@ -1,24 +1,19 @@
 body{
 	padding:100px;
-	background-color:#00c1aa;
+	background-color:#3366CC;
 }
 
 h1 {
     background-color: RGB(249, 201, 16); 
    }
    p {
-    background-color: rgb(17, 71, 209); 
-    color: rgb(240, 240, 240); 
+    background-color: maroon; 
+    color: white; 
    }
 #main-image{
-width: 500px;
-height: auto;
+width:400px;
 border:solid;
-border-radius:30px;
-}
-a:hover {
-    color: #ffe;
-    background-color: #5488af;
+border-radius:20px;
 }
 @media screen and (max-width: 1024px) {
     .container {
