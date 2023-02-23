@@ -1,0 +1,54 @@
+body
+{
+	padding:100px;
+	background-color:gray;
+}
+
+h1 {
+    background-color: darkgrey;
+    color: black;
+   }
+h5 {
+    background-color: darkgray;
+}
+h3 {
+    background-color: darkgray;
+}
+p {
+    background-color: cornsilk; 
+    color: black; 
+   }
+
+hr 
+{  
+    height: 0px;
+}
+
+#main-image
+{
+width:400px;
+border:solid;
+border-radius:20px;
+}
+
+@media screen and (max-width: 1200px) 
+{
+    .container
+    {
+        max-width: 600px;
+    }
+}
+
+@media screen and (max-width: 600px) 
+{
+    .container
+    {
+        max-width: 100%;
+        padding: 20px;
+    }
+}
+
+img
+{
+    max-width: 100%;height: auto
+}
