@@ -17,13 +17,6 @@ let arr = [
         "Grade": 7.9
     } 
 ] 
-function avg(arr){ 
-    let sum = 0; 
-    for (let i = 0; i < arr.length; i++) { 
-        sum += arr[i]['Grade']; 
-    } 
-    return sum / arr.length; 
-} 
   
   function movieDetails(arr) {
     document.write("<hr>");
@@ -36,13 +29,6 @@ function avg(arr){
     return arr.length;
   }
 
-function avgGrade(arr) {
-    let sum = 0;
-    for (let i = 0; i < arr.length; i++) {
-      sum += arr[i].Grade;
-    }
-    return sum / arr.length;
-  }  
     document.write("<h4>Wife: " + Will.name + "</h4>");
     document.write("<h4>Age: " + Will.age + "</h4>");
     document.write("<h4>Oscars: " + Will.oscars + "</h4>");
@@ -53,4 +39,3 @@ function avgGrade(arr) {
   }
   document.write("<hr>");
   document.write("<p>Sum of films: " + sumOfFilms(arr) + "</p>");
-  document.write("<p>Average Grade: " + avgGrade(arr) + "</p");
