@@ -33,7 +33,6 @@ let arr = [
   document.write("<h4>Age: " + Will.age + "</h4>");
   document.write("<h4>Oscars: " + Will.oscars + "</h4>");
 
-  const name = "Ara";
 
   for (let i = 0; i < arr.length; i++) {
     let movie = arr[i];
